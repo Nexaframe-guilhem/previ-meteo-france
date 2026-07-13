@@ -37,6 +37,16 @@
   <script>
     
 document.addEventListener('DOMContentLoaded', async function() {
+  if ("serviceWorker" in navigator) {
+  try {
+    await navigator.serviceWorker.register("./service-worker.js", {
+      scope: "./"
+    });
+    console.log("Service worker enregistré");
+  } catch (error) {
+    console.error("Erreur service worker :", error);
+  }
+}
   const loading = document.getElementById('__bundler_loading');
   function setStatus(msg) { if (loading) loading.textContent = msg; }
 
