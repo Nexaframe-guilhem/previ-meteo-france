@@ -206,6 +206,14 @@ if (headOpen) {
     if (window.Babel && typeof window.Babel.transformScriptTags === 'function') {
       window.Babel.transformScriptTags();
     }
+    if ("serviceWorker" in navigator) {
+  try {
+    await navigator.serviceWorker.register("./service-worker.js");
+    console.log("Service worker enregistré");
+  } catch (error) {
+    console.error("Erreur service worker :", error);
+  }
+}
   } catch (err) {
     setStatus('Error unpacking: ' + err.message);
     console.error('Bundle unpack error:', err);
