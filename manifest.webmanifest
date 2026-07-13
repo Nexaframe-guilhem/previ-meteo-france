@@ -1,24 +1,30 @@
 {
-  "id": "./",
+  "id": "/previ-meteo-france/",
   "name": "PREVI Météo France",
   "short_name": "PREVI",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/previ-meteo-france/",
+  "scope": "/previ-meteo-france/",
   "display": "standalone",
   "background_color": "#e8e4dc",
   "theme_color": "#e8e4dc",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "/previ-meteo-france/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./icon-512.png",
+      "src": "/previ-meteo-france/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/previ-meteo-france/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
