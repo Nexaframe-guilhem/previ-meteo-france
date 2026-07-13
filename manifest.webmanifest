@@ -2,11 +2,13 @@
   "id": "/previ-meteo-france/",
   "name": "PREVI Météo France",
   "short_name": "PREVI",
+  "description": "Prévisions météo en temps réel pour la France.",
   "start_url": "/previ-meteo-france/",
   "scope": "/previ-meteo-france/",
   "display": "standalone",
   "background_color": "#e8e4dc",
   "theme_color": "#e8e4dc",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/previ-meteo-france/icon-192.png",
