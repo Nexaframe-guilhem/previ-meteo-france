@@ -1,4 +1,4 @@
-const CACHE_NAME = "previ-cache-v2";
+const CACHE_NAME = "previ-cache-v4";
 
 const FILES_TO_CACHE = [
   "./",
